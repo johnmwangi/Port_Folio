@@ -1,0 +1,133 @@
+body {
+    background: url(https://img.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg?size=338&ext=jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 5vw;
+  }
+
+
+  h1, h2, h3, h4, h5{
+      color:#4A4E69 !important;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  p {
+      color: #4A4E69;
+      font-weight: 300;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .main-container {
+      padding-top:50px;
+  }
+
+  .about-me h1 {
+      font-size:24px;
+  }
+
+  .about-me h2 {
+      font-size:20px;
+  }
+
+  .about-me h3 {
+      font-size:18px;
+  }
+
+  .bottom-cta {
+      background: white;
+      position: fixed;
+      width: 100%;
+      padding: 15px;
+      box-shadow: 0 0 2px 3px lightgrey;
+      left: 0;
+      z-index: 10000;
+      bottom: 0;
+  }
+
+  .cta-icon {
+      font-size:2em;
+      margin:5px;
+  }
+
+
+  .cta-icon:hover,
+  .cta-icon:focus {
+      text-decoration: none;
+  }
+
+  .profile-pic {
+    box-shadow: 0px 4px 6px 2px lightgrey;
+    border-radius: 50%;
+    max-width: 80%;
+  }
+  .about-side {
+      position:fixed;
+  }
+
+  .project {
+      background: white;
+      border-radius:5px;
+      box-shadow: 0 0 2px 2px lightgrey;
+      padding: 30px;
+  }
+  /* .scroll{
+    height: 550px;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* margin-top:50px; */
+  /* }
+  ::-webkit-scrollbar {
+    display: none; */
+  /* } */ */
+
+  .nav{
+      background-color: rgba(48, 118, 119, 0.822);
+      position:fixed;
+      width: 100%;
+      z-index:99;
+      margin: 0px;
+
+  }
+  .page-footer {
+    background-color: rgba(48, 118, 119, 0.822);
+    width: 100%;
+    z-index:99;
+    margin: 0px;
+  }
+  .languages{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+
+  }
+  #navbarNavAltMarkup{
+      text-decoration-color: aliceblue
+  }
+  .work-item-row {
+	margin-bottom:10px;
+}
+.langicons {
+    width: 70px;
+    height: 70px;
+
+}
+.projectname{
+    font-family: 'Courgette', cursive;
+    font-size: 250%;
+    text-decoration: underline
+}
+.btn-lg {
+    border-color: rgba(48, 118, 119, 0.822);
+
+}
+.btn:hover {
+    background-color:  rgba(48, 118, 119, 0.822);
+    color:white;
+}
+.contact{
+    font-size: 120%;
+    color: aliceblue
+
+}
