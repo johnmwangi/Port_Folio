@@ -1,0 +1,106 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@johnmwangi
+0
+0 0 lizKimita/Portfolio
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
+Portfolio/kimita/templates/all_projects/index.html
+@lizKimita lizKimita adding a profile picture image in the home page
+40bbb66 22 days ago
+77 lines (60 sloc)  3.67 KB
+
+{% extends 'all_projects/base.html' %}
+
+{% block content %}
+{{block.super}}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 about-me about-side text-center hidden-xs" style="margin-top:150px">
+            {% for item in image%}
+            <img src="{{item.image.url}}" width=300 class="profile-pic img-responsive center-block">{% endfor %}
+            <h1 style="font-family: 'Courgette', cursive;">Elizabeth Wanjiku Kimita</h1>
+            <h2>Full Stack Developer</h2>
+            <h4><strong>Interests:</strong>  Software Engineering, Data Science and Artificial Intelligence </h4>
+            <!-- github -->
+            <a href="https://github.com/lizKimita" target="_blank"><img src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" alt="" style="width:25px;height:25px;margin-right: 10px"></a>
+
+            <!-- linkedin -->
+            <a href="https://www.linkedin.com/in/elizabeth-kimita-b936737b/" target="_blank"><img src="https://image.flaticon.com/icons/png/512/34/34227.png" alt="" style="width:25px;height:25px;"></a>
+        </div>
+
+        <div class="col-sm-1 col-sm-offset-3"></div>
+
+        <!-- loopin through the projects -->
+        <div class="scroll" style="margin-top:120px">
+
+        {% for project in projects %}
+
+        <div class="col-sm-8 col-sm-offset-3">
+            <div class="row work-item-row">
+                <div class="col-sm-8 col-sm-offset-2 project">
+                    <p class="projectname"><strong>{{project.name}}</strong></p>
+                    <p>{{project.description}}</p>
+                    <p><strong>Technologies Used:</strong>{{project.languages}}</p>
+                    <p> <strong>Published on:</strong> {{project.date}}</p>
+                    <a class="btn btn-lg" href="{{project.url}}" target="_blank">view project</a>
+                    <a class="btn btn-lg" href="{{project.github_url}}" target="_blank">view project on Github</a>
+
+                </div>
+            </div>
+        </div>
+
+    {% empty %}
+    <div class="row">
+            <h2 class="text-center">There is no Image yet!</h2>
+    </div>
+        {% endfor %}
+
+    </div>
+
+</div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-3 about-me about-side text-center hidden-xs" style="margin-top:80px"></div>
+    <div class="col-md-9 col-sm-offset-3">
+        <h1 style="text-align:center; padding-top: 8%;" class="projectname">Technologies Proficiency</h1>
+        <br>
+    <div class="container languages">
+        <a style="padding-left:10%;"><img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="" class="langicons" > <p>Angular</p> </a>
+        <a style="padding-left:5%;"><img src="http://pluspng.com/img-png/logo-javascript-png-javascript-for-ile-y-ld-z-600.png" alt="" style="width:150px;height:100px;"> <br><p >HTML/Javascript/CSS</p></a>
+        <a style="padding-left:5%;"><img src="http://www.stickpng.com/assets/images/5848152fcef1014c0b5e4967.png" alt="" class="langicons"> <p>Python</p> </a>
+        <a style="padding-left:5%;"><img src="https://banner2.kisspng.com/20180425/zpq/kisspng-flask-web-framework-python-software-framework-jinj-flask-5ae13d5f7b3205.6598398915247107515046.jpg" alt="" class="langicons"> <p>Flask</p> </a>
+
+        <a style="padding-left:5%;"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="" class="langicons"><p>postgreSQL</p></a>
+        <a style="padding-left:5%;"><img src="https://cdn.iconscout.com/icon/free/png-256/django-12-1175186.png" alt="" class="langicons"> <p>Django</p> </a>
+    </div>
+</div>
+</div>
+
+    <br>
+    <br>
+
+</div>
+{% endblock %}
+
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
