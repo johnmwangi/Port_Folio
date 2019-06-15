@@ -1,21 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@johnmwangi
-0
-0 0 lizKimita/Portfolio
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
-Portfolio/kimita/templates/all_projects/index.html
-@lizKimita lizKimita adding a profile picture image in the home page
-40bbb66 22 days ago
-77 lines (60 sloc)  3.67 KB
-
 {% extends 'all_projects/base.html' %}
 
 {% block content %}
@@ -26,14 +8,14 @@ Portfolio/kimita/templates/all_projects/index.html
         <div class="col-sm-3 about-me about-side text-center hidden-xs" style="margin-top:150px">
             {% for item in image%}
             <img src="{{item.image.url}}" width=300 class="profile-pic img-responsive center-block">{% endfor %}
-            <h1 style="font-family: 'Courgette', cursive;">Elizabeth Wanjiku Kimita</h1>
+            <h1 style="font-family: 'Courgette', cursive;">John Mwangi</h1>
             <h2>Full Stack Developer</h2>
             <h4><strong>Interests:</strong>  Software Engineering, Data Science and Artificial Intelligence </h4>
             <!-- github -->
-            <a href="https://github.com/lizKimita" target="_blank"><img src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" alt="" style="width:25px;height:25px;margin-right: 10px"></a>
+            <a href="https://github.com/johnmwangi" target="_blank"><img src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" alt="" style="width:25px;height:25px;margin-right: 10px"></a>
 
             <!-- linkedin -->
-            <a href="https://www.linkedin.com/in/elizabeth-kimita-b936737b/" target="_blank"><img src="https://image.flaticon.com/icons/png/512/34/34227.png" alt="" style="width:25px;height:25px;"></a>
+            <a href="https://www.linkedin.com/in/john-mwangi-b936737b/" target="_blank"><img src="https://image.flaticon.com/icons/png/512/34/34227.png" alt="" style="width:25px;height:25px;"></a>
         </div>
 
         <div class="col-sm-1 col-sm-offset-3"></div>
