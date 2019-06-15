@@ -16,7 +16,7 @@ def home(request):
     return render(request,'all_projects/index.html',{
         'title': title,
         'projects':projects,
-        
+        'image':image,
     })
 
 def all_repos(request):
