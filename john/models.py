@@ -11,6 +11,7 @@ class Project(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(blank=True)
     url = models.URLField(blank=True)
+    image = models.ImageField(upload_to = 'images/')
     github_url = models.URLField(blank=True)
     languages = models.TextField(blank=True)
     date = models.DateField(auto_now_add = False)
