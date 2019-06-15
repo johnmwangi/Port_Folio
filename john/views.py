@@ -28,5 +28,6 @@ def all_repos(request):
 
     return render(request, 'all_projects/repos.html', {
         'title':title,
+        'image':image,
 
     })
