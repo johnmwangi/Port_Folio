@@ -9,8 +9,9 @@
             {% for item in image%}
             <img src="{{item.image.url}}" width=300 class="profile-pic img-responsive center-block">{% endfor %}
             <h1 style="font-family: 'Courgette', cursive;">John Mwangi</h1>
-            <h2>Full Stack Developer</h2>
-            <h4><strong>Interests:</strong>  Software Engineering and Artificial Intelligence </h4>
+            <h2><strong>Full Stack Developer</strong></h2>
+            <h4><strong>Software Engineering in progress</strong>
+            <h4><strong>Interests:</strong>Data Science and Machine Learning </h4>
             <!-- github -->
             <a href="https://github.com/johnmwangi" target="_blank"><img src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" alt="" style="width:25px;height:25px;margin-right: 10px"></a>
 
@@ -21,14 +22,15 @@
         <div class="col-sm-1 col-sm-offset-3"></div>
 
         <!-- loopin through the projects -->
-        <div class="scroll" style="margin-top:120px">
+        <div class="scroll" style="margin-top:120px; margin-left:0px">
 
         {% for project in projects %}
-
-        <div class="col-sm-8 col-sm-offset-3">
-            <div class="row work-item-row">
+        <div class="col-sm-8 col-sm-offset-3" style="width:1350px">
+            <div class="row work-item-row" >
                 <div class="col-sm-8 col-sm-offset-2 project">
                     <p class="projectname"><strong>{{project.name}}</strong></p>
+                    <img src="{{project.image.url}}" class="img-responsive" alt="Image" style=" width:900px;height:300px"alt="">
+                    <hr>
                     <p>{{project.description}}</p>
                     <p><strong>Technologies Used:</strong>{{project.languages}}</p>
                     <p> <strong>Published on:</strong> {{project.date}}</p>
@@ -66,7 +68,6 @@
     </div>
 </div>
 </div>
-<div>
 
     <br>
     <br>

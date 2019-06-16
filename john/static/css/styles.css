@@ -124,10 +124,10 @@ body {
 }
 .btn:hover {
     background-color:  rgba(48, 118, 119, 0.822);
-    color:white;
+    color:green;
 }
 .contact{
     font-size: 120%;
-    color: aliceblue
+    color: lightgreen;
 
 }
