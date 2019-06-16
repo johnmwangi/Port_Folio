@@ -8,7 +8,7 @@ body {
 
 
   h1, h2, h3, h4, h5{
-      color:#4A4E69 !important;
+      color:green !important;
       font-weight: 300;
       font-family: 'Open Sans', sans-serif;
   }
@@ -83,7 +83,7 @@ body {
   /* } */ */
 
   .nav{
-      background-color: rgba(48, 118, 119, 0.822);
+      background-color:green;
       position:fixed;
       width: 100%;
       z-index:99;
@@ -91,7 +91,7 @@ body {
 
   }
   .page-footer {
-    background-color: rgba(48, 118, 119, 0.822);
+    background-color: lightgreen;
     width: 100%;
     z-index:99;
     margin: 0px;
@@ -103,7 +103,7 @@ body {
 
   }
   #navbarNavAltMarkup{
-      text-decoration-color: aliceblue
+      text-decoration-color: green;
   }
   .work-item-row {
 	margin-bottom:10px;
@@ -119,15 +119,15 @@ body {
     text-decoration: underline
 }
 .btn-lg {
-    border-color: rgba(48, 118, 119, 0.822);
+    border-color: green;
 
 }
 .btn:hover {
-    background-color:  rgba(48, 118, 119, 0.822);
-    color:green;
+    background-color: lightgreen;
+    color:white;
 }
 .contact{
     font-size: 120%;
-    color: lightgreen;
+    color: white;
 
 }
