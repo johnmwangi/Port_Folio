@@ -21,13 +21,12 @@ def home(request):
 
 def all_repos(request):
     title = 'Repos'
-    image = 'Repos'
+
 #     # all_repos = requests.get('https://api.github.com/user/repos?sort=asc&access_token={}'.format(settings.GITHUB_API))
 #     # repos = json.loads(all_repos.content)
 #     # # print(repos)
 
     return render(request, 'all_projects/repos.html', {
         'title':title,
-        'image':image,
 
     })
