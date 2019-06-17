@@ -1,8 +1,10 @@
-<!-- # Portfolio
+ # Portfolio
 
-#### This is my portfolio. Showcasing a skills i have acquired more on progress.
+#### This is my portfolio. Showcasing a skills i have acquired and more on progress.
 
 #### By **John Mwangi**
+
+<!-- ###check it out at:https://p0f0.herokuapp.com/ -->
 
 ## Known Bugs
 There are no known bugs.
