@@ -9,9 +9,11 @@
             {% for item in image%}
             <img src="{{item.image.url}}" width=300 class="profile-pic img-responsive center-block">{% endfor %}
             <h1 style="font-family: 'Mali', cursive;">John Mwangi</h1>
-          <h2 style="font-family: 'Mali', cursive;"><strong>Full Stack Developer</strong></h2>
-            <h2 style="font-family: 'Mali', cursive;"><strong>Software Engineering in progress</strong></h2>
-            <h2 style="font-family: 'Mali', cursive;"><strong>Interests:</strong>Data Science and Machine Learning </h2>
+          <h3 style="font-family: 'Mali', cursive;"><strong>Full Stack Developer</strong></h3>
+            <h3 style="font-family: 'Mali', cursive;"><strong>Interests:</strong>Data Science and Machine Learning </h3>
+            <h1 style="font-family: 'Mali', cursive;">About me</h1>
+            <h3 style="font-family: 'Mali', cursive;">A competent and adaptable software developer graduate with a get it done and on time principle, skilled capabilities to work as a full stack developer with get it done and on time principle I am able to work efficiently and to full completion.</h3>
+
             <!-- github -->
             <a href="https://github.com/johnmwangi" target="_blank"><img src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" alt="" style="width:25px;height:25px;margin-right: 10px"></a>
 
@@ -19,13 +21,14 @@
             <a href="https://www.linkedin.com/in/john-mwangi-b936737b/" target="_blank"><img src="https://image.flaticon.com/icons/png/512/34/34227.png" alt="" style="width:25px;height:25px;"></a>
         </div>
 
+
         <div class="col-sm-1 col-sm-offset-3"></div>
 
         <!-- loopin through the projects -->
         <div class="scroll" style="margin-top:120px; margin-left:0px">
 
         {% for project in projects %}
-        <div class="col-sm-8 col-sm-offset-3" style="width:1350px">
+        <div class="col-sm-10 col-sm-offset-3" style="width:1350px fixed">
             <div class="row work-item-row" >
                 <div class="col-sm-8 col-sm-offset-2 project">
                     <p class="projectname"><strong>{{project.name}}</strong></p>
@@ -58,6 +61,7 @@
     <div class="col-md-9 col-sm-offset-3">
         <h1 style="text-align:center; padding-top: 8%;" class="projectname">Aquired skills from the following Technologies.</h1>
         <br>
+
     <div class="container languages">
 
         <a style="padding-left:10%;"><img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="" class="langicons" > <br><font color="white">Angular</font> </a>
@@ -68,6 +72,7 @@
         <a style="padding-left:5%;"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="" class="langicons"><br><font color="white">postgreSQL</font></a>
         <a style="padding-left:5%;"><img src="https://cdn.iconscout.com/icon/free/png-256/django-12-1175186.png" alt="" class="langicons"><br> <font color="white">Django</font> </a>
     </div>
+    
 </div>
 </div>
 
