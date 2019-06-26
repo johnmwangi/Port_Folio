@@ -3,11 +3,9 @@
 #### This is my portfolio. Showcasing  skills i have acquired and more on progress.
 
 #### By **John Mwangi**
-
-<!-- ###check it out at:https://p0f0.herokuapp.com/ -->
-
-## Known Bugs
-There are no known bugs.
+ ###check it out at:https://p0f0.herokuapp.com/
+## Know
+There re no known bugs.
 
 ## Technologies Used
 * Python 3.6
@@ -22,4 +20,4 @@ To get in touch con:0702807225 or jonesmwas356@gmail.com
 ### License
 MIT
 
-Copyright (c) 2019 **John Mwangi** 
+Copyright (c) 2019 **John Mwangi**
