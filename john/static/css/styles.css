@@ -65,7 +65,7 @@ body {
   }
   .about-side {
       position:fixed;
-      overlay: hidden;
+
   }
 
   .project {
@@ -73,7 +73,7 @@ body {
       border-radius:5px;
       box-shadow: 0 0 2px 2px lightgreen;
       padding: 30px;
-    
+
   }
   /* .scroll{
     height: 550px;
@@ -133,4 +133,8 @@ body {
     font-size: 120%;
     color: white;
 
+}
+
+html {
+  overflow-x: hidden;
 }
