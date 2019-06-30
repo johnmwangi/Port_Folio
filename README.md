@@ -3,7 +3,7 @@
 #### This is my portfolio. Showcasing  skills i have acquired and more on progress.
 
 #### By **John Mwangi**
- ###check it out at:https://p0f0.herokuapp.com/
+check it out at:https://p0f0.herokuapp.com/
 ## Know
 There re no known bugs.
 
